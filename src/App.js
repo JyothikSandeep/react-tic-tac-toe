@@ -53,12 +53,14 @@ function App() {
       if (board[x] && board[x] === board[y] && board[y] === board[z]) {
         // console.log(board[x]);
         window.alert(`${board[x]} WINS`);
+
         setGameover(true);
         return board[x];
       }
     }
   };
   const resetBoard = () => {
+    setXplaying(true);
     setGameover(false);
     setBoard(Array(9).fill(null));
   };
