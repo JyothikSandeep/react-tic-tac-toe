@@ -1,0 +1,10 @@
+.center {
+  justify-content: center;
+  font-size: xx-large;
+  font-weight: bold;
+  display: flex;
+  /* justify-content: center; */
+  margin: 0 auto;
+  margin-top: 4rem;
+  /* color: aqua; */
+}

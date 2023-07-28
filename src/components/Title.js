@@ -1,0 +1,7 @@
+import React from "react";
+import "./Title.css";
+function Title() {
+  return <div className="center">TIC TAC TOE</div>;
+}
+
+export default Title;
